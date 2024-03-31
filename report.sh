@@ -1,3 +1,21 @@
+#!/bin/bash
+
+# Tạo tệp hostname.report với tên máy chủ thực thi chương trình
+touch "${hostname}.report"
+
+# Lấy thời gian hiện tại
+current_time=$(date)
+
+# Lấy danh sách các tiến trình đang chạy, sắp xếp theo bộ nhớ
+process_list=$(ps -eo pid,ppid,%mem,%cpu,cmd --sort=-%mem | head -n 10)
+
+# Lấy trạng thái sử dụng của đĩa cứng
+disk_usage=$(df -h)
+
+# Lấy tên máy chủ
+hostname=$(hostname)
+
+# Ghi thông tin vào tệp hostname.report
 echo "Thời gian hiện tại: $current_time" > $hostname.report
 echo "" >> $hostname.report
 echo "Danh sách các tiến trình đang chạy, sắp xếp theo bộ nhớ:" >> $hostname.report
