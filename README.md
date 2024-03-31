@@ -9,4 +9,4 @@
 - Tao va thao tac tren du an Github.
 - Tao cac nhom nguoi dung va tai khoan nguoi dung.
 - Tao va cau hinh bao mat cho cac thu muc.
-- Thuyet trinh du 
+- Thuyet trinh du an
