@@ -5,7 +5,7 @@
 3. Nguyen Hoang Nam
 4. Nguyen Van Thien
 ## Gioi thieu du an: 
-- Su dung ban phan phoi Linux phu hop (Kali) va cau hinh dia chi IPv$ tinh, kiem tra ket noi mang.
+- Su dung ban phan phoi Linux phu hop (Kali) va cau hinh dia chi IPv4 tinh, kiem tra ket noi mang.
 - Tao va thao tac tren du an Github.
 - Tao cac nhom nguoi dung va tai khoan nguoi dung.
 - Tao va cau hinh bao mat cho cac thu muc.
